@@ -57,6 +57,11 @@
 				<TextBox HorizontalContentAlignment="Center" Width="200" Height="40" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="16,0,0,0"></TextBox>
 			</StackPanel>
 			<CheckBox Content="Guardar" Margin="0,16,0,0"></CheckBox>
+
+			<StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+				<Button Content="Iniciar" Width="90" HorizontalContentAlignment="Center"/>
+				<Button Content="Parar" Width="90" HorizontalContentAlignment="Center" Margin="16,0,0,0"/>
+			</StackPanel>
 		</StackPanel>
 	</Grid>
 </UserControl>
