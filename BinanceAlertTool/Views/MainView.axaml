@@ -63,5 +63,14 @@
 				<Button Content="Parar" Width="90" HorizontalContentAlignment="Center" Margin="16,0,0,0"/>
 			</StackPanel>
 		</StackPanel>
+
+		<StackPanel Grid.Row="1" Grid.Column="2" Orientation="Vertical" VerticalAlignment="Bottom" Margin="0,16,0,0">
+			<ComboBox HorizontalAlignment="Stretch" PlaceholderText="Mercado" Margin="16,0,8,0">
+				<ComboBoxItem>Spot</ComboBoxItem>
+				<ComboBoxItem>Margin</ComboBoxItem>
+				<ComboBoxItem>Futures</ComboBoxItem>
+			</ComboBox>
+			<CheckBox Content="Testnet" Margin="16,0,0,0"></CheckBox>
+		</StackPanel>
 	</Grid>
 </UserControl>
