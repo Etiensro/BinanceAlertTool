@@ -83,5 +83,50 @@
 				<ListBoxItem>Hola4</ListBoxItem>
 			</ListBox>
 		</ScrollViewer>
+
+		
+
+		<Label Grid.Row="1" Grid.Column="5" Margin="0,8,0,0" Content="Seleccionados" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+		<ScrollViewer Grid.Row="2" Grid.Column="5" Grid.RowSpan="5" Margin="8,8,24,16">
+			<Grid ShowGridLines="false">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"></RowDefinition>
+					<RowDefinition Height="*"></RowDefinition>
+					<RowDefinition Height="*"></RowDefinition>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"></ColumnDefinition>
+				</Grid.ColumnDefinitions>
+
+				<ScrollViewer Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="0,4,0,4" VerticalScrollBarVisibility="Visible">
+					<ListBox>
+						<ListBoxItem>Hola</ListBoxItem>
+						<ListBoxItem>Hola1</ListBoxItem>
+						<ListBoxItem>Hola2</ListBoxItem>
+						<ListBoxItem>Hola3</ListBoxItem>
+						<ListBoxItem>Hola4</ListBoxItem>
+						<ListBoxItem>Hola5</ListBoxItem>
+					</ListBox>
+				</ScrollViewer>
+				<ScrollViewer Grid.Row="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="0,4,0,4" VerticalScrollBarVisibility="Visible">
+					<ListBox>
+						<ListBoxItem>Hola</ListBoxItem>
+						<ListBoxItem>Hola1</ListBoxItem>
+						<ListBoxItem>Hola2</ListBoxItem>
+						<ListBoxItem>Hola3</ListBoxItem>
+						<ListBoxItem>Hola4</ListBoxItem>
+					</ListBox>
+				</ScrollViewer>
+				<ScrollViewer Grid.Row="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="0,4,0,4" VerticalScrollBarVisibility="Visible">
+					<ListBox>
+						<ListBoxItem>Hola</ListBoxItem>
+						<ListBoxItem>Hola1</ListBoxItem>
+						<ListBoxItem>Hola2</ListBoxItem>
+						<ListBoxItem>Hola3</ListBoxItem>
+						<ListBoxItem>Hola4</ListBoxItem>
+					</ListBox>
+				</ScrollViewer>
+			</Grid>
+		</ScrollViewer>
 	</Grid>
 </UserControl>
