@@ -46,6 +46,17 @@
 				<RadioButton HorizontalAlignment="Center" Content="Telegram" Margin="16,0,0,0"/>
 				<RadioButton HorizontalAlignment="Center" Content="Ambos" Margin="16,0,0,0"/>
 			</StackPanel>
+
+			<StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+				<TextBlock Text="Api key" VerticalAlignment="Center"/>
+				<TextBox HorizontalContentAlignment="Center" Width="200" Height="40" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="16,0,0,0"></TextBox>
+			</StackPanel>
+
+			<StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+				<TextBlock Text="Secret key" VerticalAlignment="Center"/>
+				<TextBox HorizontalContentAlignment="Center" Width="200" Height="40" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="16,0,0,0"></TextBox>
+			</StackPanel>
+			<CheckBox Content="Guardar" Margin="0,16,0,0"></CheckBox>
 		</StackPanel>
 	</Grid>
 </UserControl>
