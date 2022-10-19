@@ -71,6 +71,17 @@
 				<ComboBoxItem>Futures</ComboBoxItem>
 			</ComboBox>
 			<CheckBox Content="Testnet" Margin="16,0,0,0"></CheckBox>
+			<Label Margin="0,0,0,0" Content="Disponibles" HorizontalAlignment="Center"/>
 		</StackPanel>
+		
+		<ScrollViewer Grid.Row="2" Grid.Column="2" Grid.RowSpan="5" Margin="16,8,8,16" VerticalScrollBarVisibility="Visible">
+			<ListBox>
+				<ListBoxItem>Hola</ListBoxItem>
+				<ListBoxItem>Hola1</ListBoxItem>
+				<ListBoxItem>Hola2</ListBoxItem>
+				<ListBoxItem>Hola3</ListBoxItem>
+				<ListBoxItem>Hola4</ListBoxItem>
+			</ListBox>
+		</ScrollViewer>
 	</Grid>
 </UserControl>
