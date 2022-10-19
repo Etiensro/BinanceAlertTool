@@ -40,6 +40,12 @@
 				<TextBlock Text="Precio" VerticalAlignment="Center"/>
 				<TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="40" Width="200" Margin="16,0,0,0"/>
 			</StackPanel>
+
+			<StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+				<RadioButton HorizontalAlignment="Center" Content="Escritorio"/>
+				<RadioButton HorizontalAlignment="Center" Content="Telegram" Margin="16,0,0,0"/>
+				<RadioButton HorizontalAlignment="Center" Content="Ambos" Margin="16,0,0,0"/>
+			</StackPanel>
 		</StackPanel>
 	</Grid>
 </UserControl>
