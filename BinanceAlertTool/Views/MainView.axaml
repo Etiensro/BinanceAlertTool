@@ -33,7 +33,7 @@
 				<RadioButton Content="Estrategia personalizada"/>
 				<StackPanel Orientation="Horizontal" Margin="0,16,0,0">
 					<TextBlock Text="Estrategia" VerticalAlignment="Center"/>
-					<TextBox Text="Ruta al archivo de la estrategia" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="50" Margin="16,0,0,0"/>
+					<TextBox Text="Ruta al archivo de la estrategia" IsReadOnly="True" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="50" Width="230" Margin="16,0,0,0"/>
 					<Button Content="Buscar" HorizontalAlignment="Center" Width="90" HorizontalContentAlignment="Center" Margin="16,0,0,0"/>
 				</StackPanel>
 
