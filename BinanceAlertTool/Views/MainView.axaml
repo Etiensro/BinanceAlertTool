@@ -12,7 +12,8 @@
 	</Design.DataContext>
 	
 	<Viewbox Stretch="Fill">
-		<Grid>
+		<Grid Width="1280"
+			  Height="712">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="auto"></RowDefinition>
 				<RowDefinition Height="auto"></RowDefinition>
